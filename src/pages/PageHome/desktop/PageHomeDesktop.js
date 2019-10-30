@@ -30,7 +30,7 @@ const PageHomeDesktop = () => (
     </Layout>
     <Padding value={100} />
     <BannerOurService />
-    <Padding value={160} />
+    <Padding value={100} />
     <Layout>
       <SectionWhatDo />
     </Layout>

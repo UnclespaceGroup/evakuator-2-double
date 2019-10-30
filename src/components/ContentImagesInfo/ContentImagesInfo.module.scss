@@ -1,18 +1,37 @@
 .container {
 
   h2 {
-    font-size: 3rem;
+    font-size: 4.8rem;
     font-weight: 400;
   }
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .content {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  width: 60rem;
+  margin-left: 5rem;
+  padding-right: 2rem;
+  font-size: 2rem;
+  line-height: 3.2rem;
+
+  &__right {
+    composes: content;
+    margin-left: auto;
+  }
+}
+
+.col {
+  width: 50%;
 }
 
 .image {
-  height: 20rem;
+  width: 50%;
+  height: 50rem;
   background: no-repeat center;
   background-size: cover;
 }

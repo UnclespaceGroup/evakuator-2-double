@@ -1,34 +1,36 @@
-import im1 from 'static/evak2.png'
+import React from 'react'
+import { FaMoneyBillAlt, FaRunning, FaCarSide } from 'react-icons/fa'
+import { MdTimelapse, MdAttachMoney, MdTrain } from 'react-icons/md'
 
 export const items = [
   {
-    title: 'Срочная подача',
-    text: 'Приедем в течении 20-30 минут',
-    img: im1
+    title: 'Большой автопарк',
+    text: 'Всегда есть свободные машины',
+    img: <FaCarSide />
   },
   {
-    title: 'Срочная подача',
-    text: 'Приедем в течении 20-30 минут',
-    img: im1
+    title: 'Фиксированная стоимость',
+    text: 'Цена не измениться до конца поездки',
+    img: <FaMoneyBillAlt />
   },
   {
-    title: 'Срочная подача',
-    text: 'Приедем в течении 20-30 минут',
-    img: im1
+    title: 'Работаем 24/7',
+    text: 'Готовы всегда принять заказ',
+    img: <MdTimelapse />
   },
   {
-    title: 'Срочная подача',
-    text: 'Приедем в течении 20-30 минут',
-    img: im1
+    title: 'Приедем быстро',
+    text: 'Вам не придётся долго ждать',
+    img: <FaRunning />
   },
   {
-    title: 'Срочная подача',
-    text: 'Приедем в течении 20-30 минут',
-    img: im1
+    title: 'Доступные цены',
+    text: 'От 1000 рублей за подачу',
+    img: <MdAttachMoney />
   },
   {
-    title: 'Срочная подача',
-    text: 'Приедем в течении 20-30 минут',
-    img: im1
+    title: 'Готовы взять дальний заказ',
+    text: 'Перевозки по России',
+    img: <MdTrain />
   }
 ]

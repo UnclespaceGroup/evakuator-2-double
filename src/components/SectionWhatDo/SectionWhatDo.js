@@ -9,7 +9,7 @@ import { MdInfo } from 'react-icons/md'
 const SectionWhatDo = () => (
   <div className={css.container}>
     <h2><MdInfo />Если Вы попали в ДТП <span>или ваш автомобиль сломался на дороге</span></h2>
-    <Padding value={80} />
+    <Padding value={40} />
     <CardsGridList items={items} >
       <WhatDoCard />
     </CardsGridList>
