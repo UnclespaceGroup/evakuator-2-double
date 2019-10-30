@@ -1,0 +1,29 @@
+.container {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: black;
+  padding: 2rem 0;
+  font-size: 2.4rem;
+  background-color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone {
+  color: black;
+  font-weight: bold;
+  font-size: 3.2rem;
+
+  span {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: center;
+  }
+}

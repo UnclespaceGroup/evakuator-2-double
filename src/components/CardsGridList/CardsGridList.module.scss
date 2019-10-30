@@ -1,0 +1,28 @@
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .col {
+    width: 32%;
+    margin-bottom: 4rem;
+
+    &:nth-child(n+2) {
+      margin-left: 2%;
+    }
+    &:nth-child(n+4) {
+      margin-left: 2%;
+    }
+
+    &:nth-child(4) {
+      margin-left: 0;
+    }
+  }
+}
+
+.column {
+  .col {
+    margin-bottom: 2rem;
+  }
+}

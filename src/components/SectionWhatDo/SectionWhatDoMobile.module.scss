@@ -1,0 +1,22 @@
+.container {
+  h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: normal;
+    color: #000000;
+    border-bottom: solid 1px darkgray;
+    padding-bottom: 2rem;
+
+    span {
+      font-size: 1.6rem;
+      color: #2a2a2f;
+    }
+
+    svg {
+      color: #9B51E0;
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.containerSwiper {
+  overflow: hidden;
+  padding-bottom: 2rem;
+
+  :global {
+    .swiper-pagination {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.slide {
+  width: 50rem;
+}

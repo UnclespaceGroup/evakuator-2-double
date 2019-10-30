@@ -1,0 +1,38 @@
+.container {
+  background: #BB6BD9;
+  border-radius: 1.6rem;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+
+  h3 {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: white;
+  }
+}
+
+.img {
+  width: 60%;
+  margin-left: auto;
+  height: 13rem;
+  background: no-repeat center;
+  background-size: contain;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  color: white;
+}
+
+.number {
+  position: absolute;
+  left: 2rem;
+  font-weight: bold;
+  font-size: 14.4rem;
+  line-height: 14.4rem;
+  color: rgba(155, 81, 224, 0.44);
+}

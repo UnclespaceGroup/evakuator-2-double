@@ -1,0 +1,24 @@
+.container {
+  width: 100%;
+  background: url("../../static/volkswagen_tuman_avtomobil_135944_1920x1080.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+
+  h2 {
+    font-size: 3.6rem;
+    font-weight: 400;
+  }
+}
+
+.wrapper {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 300;
+  padding: 10rem 0;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.phone {
+  font-size: 4.8rem;
+}

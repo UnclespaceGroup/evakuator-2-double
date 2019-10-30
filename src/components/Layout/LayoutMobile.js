@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cn from 'classnames'
-import css from './Layout.module.scss'
+import css from './LayoutMobile.module.scss'
 
-const Layout = ({ children, className }) => (
+const LayoutMobile = ({ children, className }) => (
   <div className={cn(css.layout, className)}>{children}</div>
 )
-Layout.propTypes = {
+LayoutMobile.propTypes = {
   children: PropTypes.node
 }
-export default React.memo(Layout)
+export default React.memo(LayoutMobile)
